@@ -1,0 +1,214 @@
+/* -основной цвет #E5E5E5 */
+/* -ДОполнительный цвет #2F303A */
+/* -основной цвет текста #212121 */
+/* -второстипенный цвет текта #757575 */
+/* -цвет текста при наведении #2196F3 */
+:root {
+ /* основной цвет текста */
+ --primary-text-color: #212121;
+ /* Дополнительный цвет текста */
+ --titel-text-color: #757575;
+ /* цвет текста при наведении */
+ --second-text-color: #2196f3;
+ /* Основной цвет фона */
+ --primary-bg-color: #e5e5e5;
+ /* цополнительный цвет фона */
+ --second-bg-color: #2f303a;
+
+ --button-text-color: #f5f4fa;
+ /* второй цвет логотипа */
+ --logo-blakc-color: #000000;
+ --logo-white-color: #ffffff;
+ /* цвет текста на кнопке */
+}
+/* уберание точки в перечислении*/
+.list {
+ list-style: none;
+}
+/* основные  стили к странице */
+
+body {
+ background-color: var(--primary-bg-color);
+ color: var(--primary-text-color);
+
+ font-style: normal;
+ font-family: "Roboto";
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.71;
+ letter-spacing: 0.03em;
+ text-decoration: none;
+}
+
+/* логотип */
+.logo {
+ color: var(--second-text-color);
+
+ font-family: "Raleway";
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+
+ text-decoration: none;
+}
+
+.logo .logo-studio-blakc {
+ color: var(--logo-blakc-color);
+}
+.logo .logo-studio-white {
+ color: var(--logo-white-color);
+}
+/* /*  Навигация */
+.site-nav .link {
+ color: var(--primary-text-color);
+
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+}
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus {
+ color: var(--second-text-color);
+}
+/* контакты в шапке сайта */
+.auth-nav .link-contact {
+ color: var(--titel-text-color);
+
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+}
+
+/* цвет ховира на ссылки */
+.auth-nav .link-contact:focus,
+.address-footer .link-contact:hover,
+.auth-nav .link-contact:hover,
+.address-footer .link-contact:focus,
+.address-footer .address:focus,
+.address-footer .address:hover
+ {
+ color: var(--second-text-color);
+}
+/* футер */
+.address-footer {
+ font-style: inherit;
+}
+.footer {
+ background-color: var(--second-bg-color);
+}
+.address-footer .address {
+ color: #ffffff;
+ text-decoration: none;
+}
+/* контакты футора */
+.address-footer .link-contact {
+ color: rgba(255, 255, 255, 0.6);
+
+ text-decoration: none;
+ line-height: 1.71;
+}
+/* Кнопки фильтра */
+.button {
+ border: none;
+ font-family: inherit;
+ letter-spacing: inherit;
+ cursor: pointer;
+ align-items: center;
+ text-align: center;
+ border-radius: 4px;
+}
+.button.primary {
+ background-color: var(--button-text-color);
+ color: var(--primary-text-color);
+
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.62;
+
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button.primary:hover,
+.button.primary:focus {
+ background-color: var(--second-text-color);
+ color: #ffffff;
+}
+/* кнопка героя */
+.hero {
+ text-align: center;
+ background-color: #2f303a;
+}
+.hero-title {
+ color: #ffffff;
+
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 1.36;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+}
+.hero > .button.primary {
+ background-color: var(--second-text-color);
+ color: #ffffff;
+
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.88;
+ letter-spacing: 0.06em;
+
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+/* Ховер на кнопки героя не показан. Убераю */
+/* .hero .button.primary:hover,
+.hero .button.primary:focus {
+ background-color: var(--button-text-color);
+ color: var(--primary-text-color);
+} */
+/* Приемущество */
+.advantage .advantage-title {
+ font-size: inherit;
+ font-weight: 700;
+ line-height: 1.14;
+ text-transform: uppercase;
+}
+.advantage .text {
+ color: var(--titel-text-color);
+}
+/* род занятий и команда */
+.occupation-titel {
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.17;
+ /* text-align: center; */
+}
+.team-people {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.19;
+}
+.team-work {
+ color: var(--titel-text-color);
+
+ font-size: 16px;
+ line-height: 1.19;
+}
+
+/* Контент на портфолео */
+
+.contaent-titel {
+ font-size: 18px;
+ line-height: 1.19;
+ font-weight: 500;
+}
+
+.contaent-contents {
+ color: var(--titel-text-color);
+
+ font-size: 16px;
+ line-height: 1.19;
+}
