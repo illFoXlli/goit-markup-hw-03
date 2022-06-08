@@ -20,6 +20,7 @@
  --logo-blakc-color: #000000;
  --logo-white-color: #ffffff;
  /* цвет текста на кнопке */
+ --nav-color-border: #ECECEC;
 }
 /* уберание точки в перечислении*/
 .list {
@@ -211,4 +212,50 @@ body {
 
  font-size: 16px;
  line-height: 1.19;
+}
+/* оформление с применением flex */
+/* шапка */
+.container {
+  /* outline: 2px solid tomato; */
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.auth-nav.list {
+  display: flex;
+  margin-left: auto;
+}
+.site-nav.list {
+  display: flex;
+  margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-left: 0px;
+}
+.header-flex {
+  display:flex;
+  align-items: center;
+ 
+}
+.border-line {
+ border-bottom: 1px solid var(--nav-color-border);
+}
+
+/* кнопки навигации сделанны больше засчет падингов */
+.site-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+.hero-title {
+  margin: 0;
+}
+.site-nav > .item:not(:last-child) {
+  margin-right: 50px;
+}
+.auth-nav .item + .item {
+margin-left: 50px;
 }
