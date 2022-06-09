@@ -16,7 +16,7 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header class="border-line">
+    <header>
       <!-- Логотип -->
       <div class="container header-flex">
         <a href="./index.html" class="logo">Web<span class="logo-studio-blakc">Studio</span>
@@ -58,7 +58,7 @@
       </section>
       <!--Приемущество-->
       <div class="container">
-      <h2>Приемущество</h2>
+      <h2 class="display-none-advantage">Приемущество</h2>
       <section class="advantage">
         <ul class="list">
           <li class="item">
@@ -88,7 +88,7 @@
         </ul>
       </section>
       <!-- Род занятий -->
-      <section>
+      <section class="occupation">
         <h2 class="occupation-titel">Чем мы занимаемся</h2>
         <ul class="list">
           <li class="item">
@@ -113,38 +113,41 @@
         </ul>
         <div class="disappear-line"></div>
       </section>
+      </div>
       <!--Команда-->
-      <section>
+      <section class="team">
+        <div class="container">
         <h2 class="occupation-titel">Наша команда</h2>
         <!--#1 команды-->
         <ul class="list">
-          <li>
-            <img class="no-line" src="./images/people1.jpg" alt="Фото" width="270" />
+          <li class="card">
+            <img class="no-line img-foto" src="./images/people1.jpg" alt="Фото" width="270" />
             <h3 class="team-people">Игорь Демьяненко</h3>
             <p class="team-work">Product Designer</p>
           </li>
           <!--#2 команды-->
-          <li>
-            <img class="no-line" src="./images/people2.jpg" alt="Фото" width="270" />
+          <li class="card">
+            <img class="no-line img-foto" src="./images/people2.jpg" alt="Фото" width="270" />
             <h3 class="team-people">Ольга Репина</h3>
             <p class="team-work">Frontend Developer</p>
           </li>
           <!--#3 команды-->
-          <li>
-            <img class="no-line" src="./images/people3.jpg" alt="Фото" width="270" />
+          <li class="card">
+            <img class="no-line img-foto" src="./images/people3.jpg" alt="Фото" width="270" />
             <h3 class="team-people">Николай Тарасов</h3>
             <p class="team-work">Marketing</p>
           </li>
           <!--#4 команды-->
-          <li>
-            <img class="no-line" src="./images/people4.jpg" alt="фото" width="270" />
+          <li class="card">
+            <img class="no-line img-foto" src="./images/people4.jpg" alt="фото" width="270" />
             <h3 class="team-people">Михаил Ермаков</h3>
             <p class="team-work">UI Designer</p>
           </li>
         </ul>
+        </div>
         <!--Постоянные клиенты-->
       </section>
-      </div>
+      
     </main>
     <!-- подвал, низ страницы -->
     <footer class="footer">
