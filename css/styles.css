@@ -108,7 +108,7 @@ body {
  color: #ffffff;
  text-decoration: none;
 }
-.container .list-button + .list-button{
+.section .list-button + .list-button{
 margin-left: 8px;
 }
 /* контакты футора */
@@ -131,7 +131,7 @@ margin-left: 8px;
 .space-address:not(:last-child) {
  margin-bottom: 9px;
 }
-.footer .container {
+.footer .section {
  padding: 60px 15px;
 }
 .footer .list {
@@ -212,7 +212,7 @@ margin-left: 8px;
  color: var(--primary-text-color);
 } */
 /* Приемущество */
-.container.index-advantage-container{
+.section.index-advantage-section{
   padding-top: 94px;
   padding-bottom: 94px; 
 }
@@ -278,7 +278,7 @@ margin-left: 8px;
 }
 /* оформление с применением flex */
 /* шапка */
-.container {
+.section {
  /* outline: 2px solid tomato; */
  width: 1200px;
  margin-left: auto;
@@ -351,7 +351,7 @@ margin-left: 8px;
  margin-left: auto;
  margin-right: auto;
 }
-.container.team-container {
+.section.team-section {
 padding-top: 94px;
 padding-bottom: 94px;
 }
@@ -377,7 +377,7 @@ padding-bottom: 94px;
  text-align: center;
 }
 /* фильр в портфолео */
-.container.main-portfolio {
+.section.main-portfolio {
   padding-top: 93px;
   padding-bottom: 93px;
 }
