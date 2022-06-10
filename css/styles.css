@@ -108,7 +108,7 @@ body {
  color: #ffffff;
  text-decoration: none;
 }
-.section .list-button + .list-button{
+.container .list-button + .list-button{
 margin-left: 8px;
 }
 /* контакты футора */
@@ -131,7 +131,7 @@ margin-left: 8px;
 .space-address:not(:last-child) {
  margin-bottom: 9px;
 }
-.footer .section {
+.footer .container {
  padding: 60px 15px;
 }
 .footer .list {
@@ -212,10 +212,7 @@ margin-left: 8px;
  color: var(--primary-text-color);
 } */
 /* Приемущество */
-.section.index-advantage-section{
-  padding-top: 94px;
-  padding-bottom: 94px; 
-}
+
 .advantage .advantage-title {
  font-size: inherit;
  font-weight: 700;
@@ -278,7 +275,7 @@ margin-left: 8px;
 }
 /* оформление с применением flex */
 /* шапка */
-.section {
+.container {
  /* outline: 2px solid tomato; */
  width: 1200px;
  margin-left: auto;
@@ -351,10 +348,7 @@ margin-left: 8px;
  margin-left: auto;
  margin-right: auto;
 }
-.section.team-section {
-padding-top: 94px;
-padding-bottom: 94px;
-}
+
 .team .occupation-titel {
  margin-bottom: 50px;
 }
@@ -377,9 +371,9 @@ padding-bottom: 94px;
  text-align: center;
 }
 /* фильр в портфолео */
-.section.main-portfolio {
-  padding-top: 93px;
-  padding-bottom: 93px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .filter-button {
  display: flex;
