@@ -401,7 +401,7 @@ button-primary:focus {
 }
 .list.list-cards {
   /* outline: 2px solid tomato; */
-  border-bottom: 1px solid var(--nav-color-border);
+  /* border-bottom: 1px solid var(--nav-color-border); */
 }
 .list.list-cards:not(:nth-child(3n + 3)) {
   /* outline: 2px solid teal; */
