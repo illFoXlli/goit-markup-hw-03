@@ -329,6 +329,9 @@ button-primary:focus {
 .advantage-item + .advantage-item {
   margin-left: 30px;
 }
+.advantage.section {
+  padding-bottom: 0;
+}
 
 .occupation-list {
   display: flex;
