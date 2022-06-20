@@ -367,13 +367,10 @@ button-primary:focus {
 }
 /* фильр в портфолео */
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
-.section-padding {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .filter-button {
   display: flex;
   padding: 0;
